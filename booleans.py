@@ -28,9 +28,17 @@ else:
 
 #Using IF Statements to compare
 
-weight = 190.4
+weight = 190
+goal_weight = 185
+weight_sub = weight - goal_weight
 
 if weight < 200:
     print("Keep up the good work")
 else:
     print("It's ok. Let's work on that.")
+
+if weight != 185: #!= is not equal to
+    print(f"You're weight is {weight} not {goal_weight} it is {weight_sub} lbs away from your goal.")
+if weight == 190: #== is equal to
+    print(f"You are currently at {weight} lbs which is only {weight_sub} lbs from your goal weight of {goal_weight} lbs.")
+#<= is equal to or less than and >= is equal to or greater than
