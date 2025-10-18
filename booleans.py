@@ -25,3 +25,12 @@ else:
     print("*Click*")
     print("Why'd you turn the light off!?")
     light_is_on = True
+
+#Using IF Statements to compare
+
+weight = 190.4
+
+if weight < 200:
+    print("Keep up the good work")
+else:
+    print("It's ok. Let's work on that.")
