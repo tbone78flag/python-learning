@@ -9,7 +9,6 @@ All projects are done locally in VS Code and versioned through GitHub to show re
 - Basic syntax and variables  
 - Functions and conditionals  
 - Loops and lists  
-- File I/O  
 - Object-oriented programming  
 - Small project challenges
 
